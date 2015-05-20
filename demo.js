@@ -64,17 +64,4 @@ function draw() {
     iter(tree);
     console.log(tree);
     $('#json').JSONView(tree);
-    // console.log(tree);
-    // console.log(JSON.stringify(tree, null, 4));
-    // var lines = tree2line(tree);
-    // lines.forEach(function(line, y) {
-    //     y /= lines.length;
-    //     y *= height;
-    //     line.forEach(function(el, x) {
-    //         x += 0.5;
-    //         x /= line.length;
-    //         x *= width;
-    //         text(el.selector, x, y);
-    //     });
-    // });
 }
