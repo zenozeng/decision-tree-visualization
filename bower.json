@@ -1,0 +1,20 @@
+{
+  "name": "decision-tree-visualization",
+  "version": "0.0.0",
+  "homepage": "https://github.com/zenozeng/decision-tree-visualization",
+  "authors": [
+    "Zeno Zeng <zenoofzeng@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "p5.js": "https://github.com/processing/p5.js.git#~0.4.4"
+  }
+}
