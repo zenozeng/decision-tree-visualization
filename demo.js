@@ -62,6 +62,13 @@ function draw() {
         }
     };
     iter(tree);
-    console.log(tree);
-    $('#json').JSONView(tree);
+    $(function() {
+        $('#json').JSONView(tree, {collapsed: false});
+        $('.prop').each(function() {
+            var text = $(this).text();
+            if (text.indexOf("examples") > -1 || text.indexOf("children") > -1) {
+                $(this).prev().click();
+            }
+        });
+    });
 }
